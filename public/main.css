@@ -1,0 +1,54 @@
+td {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.black {
+  background-color: black;
+}
+.player {
+  background-color: black;  
+  border-radius: 15px;
+  text-align: center;
+  
+}
+/*.players {
+	border-radius: 15px;
+}*/
+
+table { 
+  border-collapse: collapse;
+  border: solid black 3px;
+}
+
+.bubble 
+{
+position: relative;
+width: 520px;
+height: 120px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+z-index: -1;
+overflow: hidden;
+font-size: 30px;
+background-color: black;
+}
+
+/*.bubble:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 15px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -15px;
+left: 245px;
+}*/
